@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import Header from "../components/Header";
+import Footer from "../components/Footer"
 
 function Dashboard() {
   const [user, setUser] = useState(null);
@@ -73,6 +74,7 @@ function Dashboard() {
             <p className="text-gray-600">Loading dashboard...</p>
           </div>
         </div>
+        <Footer/>
       </div>
     );
   }

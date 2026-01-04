@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -161,6 +162,7 @@ function Login() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

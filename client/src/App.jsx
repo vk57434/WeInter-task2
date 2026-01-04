@@ -21,8 +21,10 @@ function App() {
         <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
+    
   );
 }
+
 
 function LandingWrapper() {
   return <Landing />;

@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function Quiz() {
   const [questions, setQuestions] = useState([]);
@@ -271,6 +272,7 @@ function Quiz() {
             </button>
           </form>
         </div>
+        <Footer/>
       </div>
     );
   }
